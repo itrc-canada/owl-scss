@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Open+Sans&family=Playfair+Display:wght@400;500;700;900&display=swap');
+/*
+#212121
+#065464
+#34acbc
+#85c3cf
+#7a7d84
+
+*/
+
+/*Section breaks produce sections that can be customized by color. These have borders of the given color, but they can be customized however you'd likc */
+.lastcol{
+  background:transparent;
+  border:none;
+}
+.coltrans{
+  background:transparent;
+  border:none;
+}
+
+.colred{
+  background-color:white;
+  border:3px solid #C73248;
+  border-radius:0;
+}
+
+.colblue{
+  background-color:white;
+  border:3px solid #3F69F8;
+  border-radius:0;
+}
+
+.colgray{
+  background-color:white;
+  border:3px solid #807F83;
+  border-radius:0;
+}
+
+.colyellow{
+  background-color:white;
+  border:3px solid #FFD256;
+  border-radius:0;
+}
+
+.colgreen{
+  background-color:white;
+  border:3px solid #72D2A6;
+  border-radius:0;
+}
+
+/*Changes the text/font styling for the lesson*/
+.itemclass{
+    font-family: 'Open Sans', serif;
+    font-size:110%;
+    color:black;
+    /*background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/dot-grid.png");*/
+    background-color:white;
+
+}
+
+/*Changes the header font to playfair*/
+.itemclass h1,h2,h3,h4,h5,h6{
+  font-family: 'Open Sans', serif;
+  color:#065464;
+  font-weight:900;
+}
+
+/*Customizes the styling of the top level header*/
+.itemclass h1{
+  font-size:250%;
+  text-align:left;
+  width:100%;
+  padding:20px 0px;
+}
+/*Customizes the styling of the second level header*/
+.itemclass h2{
+  font-size:180%;
+  width:100%;
+  padding:0 0 20px 0;
+  color:#212121;
+}
+
+/*Goves a margin for lists*/
+.itemclass .textbox li{
+  margin-bottom:10px;
+}
+
+/* Subpage - Show As Button - Button & Text */
+.pageType.listType .link-div .usebutton.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {
+	border: 0px solid black;
+	border-radius: 0px;
+	padding: 15px;
+  width:100%;
+  background-color:#065464;
+  color: white;
+	font: 1.2em 'Open Sans', serif;
+  margin-bottom: 20px;
+}
+
+.pageType.listType .link-div .usebutton{
+  text-align:center;
+}
+.pageType.listType .link-div .usebutton.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only:hover {
+  background-color:#34acbc;
+}
+
+/* Ommmited from port as .itemclass covers this */
+.link-div {
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+}
+
+/*Changes the description section for menu items*/
+.rowdescription {
+  margin-left: auto;
+  width: 100%;
+  vertical-align: top;
+  margin-bottom: 20px;
+  color:black;
+}
+
+
+.right-col{
+  width:100%;
+}
+/* Checklist - Background */
+.column .checklistDiv{
+	background-color: transparent;
+  border:2px solid #807F83;
+  width:100%;
+  border-radius:0px;
+}
+
+/* Checklist - Title */
+.itemclass h3.checklistTitle {
+}
+
+/* Checklist - Description */
+.checklistDescription {
+  width:100%;
+}
+
+/* Checklist - List/Items */
+.checklistItemDiv{
+	color: black;
+ }
+
+ .genTitle{
+   display:none;
+ }
+
+.multimedia, .multimediaType{
+  text-align:center;
+}
+
+/* Question Poll Tool */
+.column .commentDiv, .column .studentContentTable, .column .questionDiv .contentCol, .column .checklistDiv {
+  background-color: white;
+}
+
+/*     Fall Edits    */
+
+/*Changes the Headers in the Site Selection menu back to default*/
+.dhtml_more_tabs h1, .dhtml_more_tabs h2, .dhtml_more_tabs h3, .dhtml_more_tabs h4, .dhtml_more_tabs h5, .dhtml_more_tabs h6{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+/*  Accordion Header    */
+.collapsibleSectionHeader{
+    position: relative;
+    margin-left: 4%;
+}
+
+/*  Accordion Content   */
+.collapsible{
+    margin-left: 4%;
+}
+
+/*Student Pages*/
+/*Student Pages*/
+.studentContentTitle {
+    padding-left: 0;
+    margin-left: 10px;
+    color:black;
+}
+
+/*  Question Tool   */
+
+/*Makes the headers in the question creation screen normal (not blue or open sans)*/
+
+.lessonsDialog h1, .lessonsDialog h2, .lessonsDialog h3, .lessonsDialog h4, .lessonsDialog h5, .lessonsDialog h6{
+  color:black;
+  font-family:sans-serif;
+}
+
+.questionDiv .statusCol{
+    display: none;
+    height: 0;
+}
+
+.questionDiv{
+    padding-top: 0;
+}
+
+.column .questionDiv .contentCol, .studentContentTable{
+	background-color: transparent;
+    width: 100%;
+}
+
+.shortanswerForm .ui-wrapper{
+    min-width: 150px;
+    width: 100%;
+
+    min-height: 60px;
+}
+
+.shortanswerForm .resizable{
+    min-width: 150px;
+    width: 100%;
+
+    min-height: 60px;
+}
+
+.questionDiv .contentCol, .studentContentTable{
+    border:2px solid #807F83;
+    border-radius:0px;
+}
+
+.questionText{
+    font-family: 'Open Sans', serif;
+    line-height: 24px;
+    color: black;
+    font-weight: 600;;
+}
+
+
+
+
+/* Comment Tool*/
+.column .commentDiv {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+.commentDiv h3.author {
+color: #4F2683;
+}
+
+.add-comment-button a.usebutton {
+	margin-top:15px;
+	border:1px solid #999;
+	padding:6px 20px !important;
+	background:#f0f0f0;
+	border-radius: 3px;
+}
+
+.add-comment-button a.usebutton .ui-button-text{
+	font-size: 1.1em !important;
+}
+
+.replaceWithComments {
+	margin: 0px !important;
+}
+
+
+/* Descriptions next to Weekly Buttons */
+.rowdescription {
+    margin-left: 2%;
+    width: 70%;
+    vertical-align: top;
+    margin-bottom: 20px;
+    color:black;
+}
+
+/*
+
+.add-comment-button {
+	text-align: right;
+}
+Comment Tool */

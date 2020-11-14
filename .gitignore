@@ -232,5 +232,6 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,git,node,macos,vscode,windows,vue,vuejs
 
-#Temp
-web/
+# Extra
+compiled/
+scss/styles/external/

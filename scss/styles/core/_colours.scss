@@ -1,0 +1,34 @@
+@use 'sass:color' as color;
+
+/*
+  As a general rule you'll want to use TEMPLATE / TEMPLATE COMPUTED. 
+  But for basic colours/shades like black/white/grey you can direct access CORE.
+  Avoid direct references to TEMPLATE DEFINED as they are not always guaranteed to be there.
+*/
+
+// TEMPLATE DEFINED (SET COLOURS HERE. UPDATE TEMPLATE VARIABLES.x)
+$-slate: #065464;
+$-darkness: #212121;
+$-teal-dreams: #34acbc;
+
+// CORE (DO NOT TOUCH.)
+$white: #fafafa;
+$black: #000;
+
+
+// TEMPLATE (DO NOT CHANGE VARIABLE NAMES.)
+$primary: $-slate;
+$secondary: $-darkness;
+$btn-primary: $primary;
+
+$colblue: #3f69f8;
+$colgray: #807f83;
+$colgreen: #72d2a6;
+$colred: #c73248;
+$coltrans: transparent;
+$colyellow: #ffd256;
+
+// TEMPLATE COMPUTED (DO NOT TOUCH.)
+$primary-hvr: color.scale($primary, $lightness: 20%);
+$secondary-hvr: color.scale($secondary, $lightness: 20%);
+$btn-primary-hvr: color.scale($secondary, $lightness: 20%);

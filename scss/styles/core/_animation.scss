@@ -1,0 +1,15 @@
+
+// Animation Defaults
+$-animationDuration: .3s;
+$-animationCurve: ease;
+
+/**
+ * @mixin transition
+ * @desc Returns CSS code for adding transition to make your lfie easier
+ * @param $target {CSS Property} - Defaults to 'all', accepts css props like background, opacity, etc.
+ * @param $curve {CSS Animtion Curve} - Defaults to above, accepts standard css curves: ease, ease-in, etc.
+ * @param $duration {# of Seconds} - Defaults to above, accepts values in seconds including decimals.
+ */
+@mixin transition($target: all, $curve: $-animationCurve, $duration: $-animationDuration) {
+  transition: $target $curve $duration;
+}

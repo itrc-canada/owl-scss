@@ -1,0 +1,14 @@
+// YOU NEED TO RUN THE FONT SCRIPT BEFORE YOU COMPILE
+@warn 'YOU NEED TO RUN THE FONT SCRIPT BEFORE YOU COMPILE';
+@import "../external/fonts.css";
+@use './colours' as *;
+
+$primaryFontFamily: 'Open Sans', serif !default;
+$secondaryFontFamily: 'Open Sans', serif !default;
+$tertiaryFontFamily: 'Open Sans', serif !default;
+
+// Although the filename uses the Canadian spelling, for sake of ease vars will ommit the 'u'
+$primaryFontColor: $primary !default;
+$secondaryFontColor: $secondary !default;
+$tertiaryFontColor: $black !default;
+$bodyFontColor: $black !default;

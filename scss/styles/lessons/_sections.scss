@@ -1,0 +1,47 @@
+/*
+  Section breaks produce sections that can be customized by color. 
+  These have borders of the given color, but they can be customized however you'd like.
+*/
+
+@use '../core/colours' as *;
+
+.lastcol {
+  background: $coltrans;
+  border: none;
+}
+
+.coltrans {
+  background: $coltrans;
+  border: none;
+  border-radius: 0;
+}
+
+.colred {
+  background-color: $white;
+  border: $defaultBorderWidth solid $colred;
+  border-radius: 0;
+}
+
+.colblue {
+  background-color: $white;
+  border:$defaultBorderWidth solid $colblue;
+  border-radius: 0;
+}
+
+.colgray {
+  background-color: $white;
+  border:$defaultBorderWidth solid $colgray;
+  border-radius: 0;
+}
+
+.colyellow{ 
+  background-color: $white;
+  border:$defaultBorderWidth solid $colyellow;
+  border-radius: 0;
+}
+
+.colgreen {
+  background-color: $white;
+  border:$defaultBorderWidth solid $colgreen;
+  border-radius: 0;
+}
