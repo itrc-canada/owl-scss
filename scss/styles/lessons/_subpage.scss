@@ -1,7 +1,4 @@
 // Subpage - Show As Button - Button & Text
-@use '../core/animation' as anim;
-@use '../core/colours' as *;
-@use '../core/typography' as typo;
 
 // This could also be written as: .pageType { &.listType { &.contentCol { } }  }
 // if there is ever a need to access .pageType/.pageType.listType only.
@@ -11,8 +8,8 @@
   .link-div {
     // Subpage link as button
     .usebutton {
-      @include anim.transition();
-      font-family: typo.$primaryFontFamily;
+      @include transition();
+      font-family: $primaryFontFamily;
       font-size: 1.2em;
       color: $white;
       text-align: center;
@@ -25,7 +22,7 @@
 
       // Btn Hover
       &:hover {
-        @include anim.transition();
+        @include transition();
         background: $btn-primary-hvr;
       }
     }  

@@ -3,8 +3,6 @@
   These have borders of the given color, but they can be customized however you'd like.
 */
 
-@use '../core/colours' as *;
-
 .lastcol {
   background: $coltrans;
   border: none;

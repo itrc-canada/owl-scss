@@ -1,4 +1,3 @@
-@use 'sass:color' as color;
 
 /*
   As a general rule you'll want to use TEMPLATE / TEMPLATE COMPUTED. 
@@ -28,7 +27,7 @@ $colred: #c73248;
 $coltrans: transparent;
 $colyellow: #ffd256;
 
-// TEMPLATE COMPUTED (DO NOT TOUCH.)
-$primary-hvr: color.scale($primary, $lightness: 20%);
-$secondary-hvr: color.scale($secondary, $lightness: 20%);
-$btn-primary-hvr: color.scale($secondary, $lightness: 20%);
+// TEMPLATE COMPUTED 
+// $primary-hvr: color.scale($primary, $lightness: 20%);
+// $secondary-hvr: color.scale($secondary, $lightness: 20%);
+$btn-primary-hvr: #34acbc;

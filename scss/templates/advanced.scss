@@ -1,12 +1,12 @@
 // OWL Advanced Template 
 
 // Core components, must be loaded first
-@use '../styles/core/vars' as *;
-@use '../styles/core/colours' as *;
-@use '../styles/core/typography' as typo;
-@use '../styles/core/animation' as anim;
+@import '../styles/core/vars';
+@import '../styles/core/colours';
+@import '../styles/core/typography';
+@import '../styles/core/animation';
 
 // Lessons
-@use '../styles/lessons/typography';
-@use '../styles/lessons/lists';
-@use '../styles/lessons/sections';
+@import '../styles/lessons/typography';
+@import '../styles/lessons/lists';
+@import '../styles/lessons/sections';

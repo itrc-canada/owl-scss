@@ -2,7 +2,7 @@
 @use '../core/typography' as typo;
 
 .itemclass {
-  font-family: typo.$primaryFontFamily;
+  font-family: $primaryFontFamily;
   font-size: 1.1em;
   font-weight: 400;
   color: $black;
@@ -12,7 +12,7 @@
   h1 {
     font-size: 2.5em;
     font-weight: 900;
-    color: typo.$primaryFontColor;
+    color: $primaryFontColor;
     text-align: left;
     width: 100%;
     margin: 20px 0;
@@ -22,7 +22,7 @@
   h2 {
     font-size: 1.8em;
     font-weight: 900;
-    color: typo.$secondaryFontColor;
+    color: $secondaryFontColor;
     text-align: left;
     width: 100%;
     margin: 0 0 20px 0;
@@ -30,9 +30,9 @@
 
   // Make the rest of the headers consistent
   h3, h4, h5, h6 {
-    font-family: typo.$primaryFontFamily;
+    font-family: $primaryFontFamily;
     font-size: 1.1em;
     font-weight: 900;
-    color: typo.$primaryFontColor;
+    color: $primaryFontColor;
   }
 }
