@@ -1,0 +1,23 @@
+// Let's fix-up the checklists
+@use '../core/colours' as *;
+@use '../core/vars' as *;
+@use '../core/typography' as typo;
+
+.checklistDiv {
+  background: $white; // transparent; This was overwritten farther down.
+  border: $defaultBorderWidth solid $gray; // Upped to 3px to match columns
+  width: 100%;
+  border-radius: $defaultBorderRadius;
+  color: $black;
+
+
+  .checklistTitle {
+    font-weight: 700;
+  }
+
+  .checklistDescription {
+    width: 100%;
+  }
+
+}
+

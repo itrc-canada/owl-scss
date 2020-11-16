@@ -1,0 +1,27 @@
+// Let's fix the Comment tool
+@use '../core/colours' as *;
+@use '../core/animation' as anim;
+@use '../core/typography' as typo;
+
+.commentsDiv {
+
+  .commentDiv {
+    background: $white;
+    border-bottom: 1px solid $lt-gray;
+  
+    .author {
+      color: $primary;
+    }
+  }
+}
+
+.add-comment-button {
+
+  .usebutton {
+    margin: 15px 0px 2px 0px;
+    padding: 6px 20px !important;
+    border: 1px solid $gray;
+    border-radius: $defaultBorderRadius;
+    background: $white; 
+  }
+}

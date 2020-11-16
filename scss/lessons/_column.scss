@@ -3,43 +3,53 @@
   These have borders of the given color, but they can be customized however you'd like.
 */
 
+@use '../core/colours' as *;
+@use '../core/vars' as *;
+
 .lastcol {
-  background: $coltrans;
+  background: $coltransparent;
   border: none;
 }
 
-.coltrans {
-  background: $coltrans;
+// Why are they all right? No lefts here.
+.right-col {
+  width: 100%
+}
+
+.coltransparent, .coltrans {
+  background: $coltransparent;
   border: none;
-  border-radius: 0;
+  border-radius: $columnBorderRadius;
 }
 
 .colred {
   background-color: $white;
   border: $defaultBorderWidth solid $colred;
-  border-radius: 0;
+  border-radius: $columnBorderRadius;
 }
 
 .colblue {
   background-color: $white;
   border:$defaultBorderWidth solid $colblue;
-  border-radius: 0;
+  border-radius: $columnBorderRadius;
 }
 
 .colgray {
   background-color: $white;
   border:$defaultBorderWidth solid $colgray;
-  border-radius: 0;
+  border-radius: $columnBorderRadius;
 }
 
 .colyellow{ 
   background-color: $white;
   border:$defaultBorderWidth solid $colyellow;
-  border-radius: 0;
+  border-radius: $columnBorderRadius;
 }
 
 .colgreen {
   background-color: $white;
   border:$defaultBorderWidth solid $colgreen;
-  border-radius: 0;
+  border-radius: $columnBorderRadius;
 }
+
+

@@ -5,29 +5,34 @@
   Avoid direct references to TEMPLATE DEFINED as they are not always guaranteed to be there.
 */
 
-// TEMPLATE DEFINED (SET COLOURS HERE. UPDATE TEMPLATE VARIABLES.x)
+@use 'sass:color' as color;
+
+// TEMPLATE DEFINED (SET COLOURS HERE. UPDATE TEMPLATE VARIABLES.)
+// $- is a private var, if you need access to a colour outside this file omit '-'
 $-slate: #065464;
 $-darkness: #212121;
-$-teal-dreams: #34acbc;
+$-meteorite: #4f2683;
 
-// CORE (DO NOT TOUCH.)
+// STANDARD COLOURS (DO NOT REMOVE.)
 $white: #fafafa;
 $black: #000;
-
+$gray: #808080;
+$lt-gray: #a1a1a1;
 
 // TEMPLATE (DO NOT CHANGE VARIABLE NAMES.)
+// Core Colours
 $primary: $-slate;
 $secondary: $-darkness;
 $btn-primary: $primary;
-
+// Columns
 $colblue: #3f69f8;
 $colgray: #807f83;
 $colgreen: #72d2a6;
 $colred: #c73248;
-$coltrans: transparent;
+$coltransparent: transparent;
 $colyellow: #ffd256;
 
 // TEMPLATE COMPUTED 
-// $primary-hvr: color.scale($primary, $lightness: 20%);
-// $secondary-hvr: color.scale($secondary, $lightness: 20%);
-$btn-primary-hvr: #34acbc;
+$primary-hvr: color.scale($primary, $lightness: 20%);
+$secondary-hvr: color.scale($secondary, $lightness: 20%);
+$btn-primary-hvr: color.scale($btn-primary, $lightness: 20%);

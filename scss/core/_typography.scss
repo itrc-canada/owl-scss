@@ -1,7 +1,9 @@
 // YOU NEED TO RUN THE FONT SCRIPT BEFORE YOU COMPILE
-@warn 'YOU NEED TO RUN THE FONT SCRIPT BEFORE YOU COMPILE';
-@import "../external/fonts.css";
 @use './colours' as *;
+@use "../external/_fonts.css";
+@warn 'Reminder: Did you you run the font retrieval script?';
+
+
 
 $primaryFontFamily: 'Open Sans', serif !default;
 $secondaryFontFamily: 'Open Sans', serif !default;
