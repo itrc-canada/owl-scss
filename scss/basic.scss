@@ -1,6 +1,6 @@
 // OWL Basic Template 
 
 // Components
-@use './lessons/typography';
-@use './lessons/lists';
-@use './lessons/sections';
+
+// Lessons Overrides (Might reach outside the page)
+@use './lessons/overrides';

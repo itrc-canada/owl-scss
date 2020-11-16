@@ -1,5 +1,6 @@
 // Let's fix the Comment tool
 @use '../core/colours' as *;
+@use '../core/vars' as *;
 @use '../core/animation' as anim;
 @use '../core/typography' as typo;
 
@@ -23,5 +24,13 @@
     border: 1px solid $gray;
     border-radius: $defaultBorderRadius;
     background: $white; 
+
+    .ui-button-text {
+      font-size: 1.1em !important;
+    }
   }
+}
+
+.replaceWithComments {
+  margin: 0 !important;
 }

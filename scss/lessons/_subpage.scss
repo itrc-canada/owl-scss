@@ -32,8 +32,11 @@
   }
 
   // Styles the description field for subpage / list items
+  // Commented out values are originals replaced by fall edits.
   .rowdescription {
-    margin: 0 auto 20px auto;
-    width: 100%;
+    margin: 0 auto 20px 2%; // auto
+    width: 70%; // 100%;
+    vertical-align: top;
+    color: $black;
   }
 }
