@@ -1,5 +1,6 @@
 // Student Page Display
 @use '../core/colours' as *;
+@use '../core/typography' as typo;
 
 .studentDiv {
 
@@ -7,8 +8,16 @@
     background: $white;
 
     .studentContentTitle {
+      font-family: typo.$primaryFontFamily;
       padding: 0.2em 0.2em 0.2em 0;
       margin: 0.75em 0 0.5em 10px;
+    }
+
+    .studentRow {
+
+      .studentLink {
+        font-family: typo.$primaryFontFamily;
+      }
     }
   }
 }

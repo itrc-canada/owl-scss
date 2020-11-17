@@ -12,10 +12,16 @@
 
 
   .checklistTitle {
+    font-family: typo.$primaryFontFamily;
     font-weight: 700;
   }
 
+  .checklistLabel {
+    font-family: typo.$primaryFontFamily;
+  }
+
   .checklistDescription {
+    font-family: typo.$primaryFontFamily;
     width: 100%;
   }
 

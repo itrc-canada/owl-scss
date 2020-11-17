@@ -6,10 +6,10 @@
   font-size: 1.1em;
   font-weight: 400;
   color: $black;
-  background-color: $white;
 
   // Customize top-level headers
   h1 {
+    font-family: typo.$primaryFontFamily;
     font-size: 2.5em;
     font-weight: 900;
     color: typo.$primaryFontColor;
@@ -20,6 +20,7 @@
 
   // Customize second-level headers
   h2 {
+    font-family: typo.$primaryFontFamily;
     font-size: 1.8em;
     font-weight: 900;
     color: typo.$secondaryFontColor;

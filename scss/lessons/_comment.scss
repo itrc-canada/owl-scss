@@ -11,7 +11,12 @@
     border-bottom: 1px solid $lt-gray;
   
     .author {
+      font-family: typo.$primaryFontFamily;
       color: $primary;
+    }
+
+    .commentBody {
+      font-family: typo.$primaryFontFamily;
     }
   }
 }

@@ -2,3 +2,11 @@
 .multimedia, .multimediaType {
   text-align: center;
 }
+
+// Embedded Videos Centering
+.textbox {
+  video {
+    display: block;
+    margin: 0 auto;
+  }
+}
