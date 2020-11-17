@@ -1,13 +1,32 @@
 // Accordions
+@use '../core/colours' as *;
+@use '../core/vars' as *;
+@use '../core/animation' as anim;
 
 // Accordion Content
 .collabsible {
-  margin: 0.75em 0 0.5em 4%;
+  margin: 0.75em 0 0.5em 0.75em;
+  border-left: $defaultBorderWidth solid $lt-gray;
+  border-radius: $defaultBorderRadius;
 }
 
 // Accordion Content
 .collapsibleSectionHeader {
+  @include anim.transition();
   position: relative;
-  margin: 0.75em 0 0.5em 4%;
-}
+  margin: 0.75em 0 0.5em 0.75em;
+  padding: 1.25em;
+  width: 100%;
+  background: $accordionBg;
+  color: $white;
 
+  &:hover {
+    @include anim.transition();
+    background: $accordionBg-hvr;
+  }
+
+  .sectionHeaderText {
+    font-size: 1.25em;
+    color: $white;
+  }
+}

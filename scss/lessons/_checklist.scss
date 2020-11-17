@@ -4,7 +4,7 @@
 @use '../core/typography' as typo;
 
 .checklistDiv {
-  background: $white; // transparent; This was overwritten farther down.
+  background: $white !important; // transparent; This was overwritten farther down.
   border: $defaultBorderWidth solid $gray; // Upped to 3px to match columns
   width: 100%;
   border-radius: $defaultBorderRadius;

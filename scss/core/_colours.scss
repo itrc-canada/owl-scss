@@ -31,8 +31,12 @@ $colgreen: #72d2a6;
 $colred: #c73248;
 $coltransparent: transparent;
 $colyellow: #ffd256;
+// Accordions
+$accordionBg: $gray;
+
 
 // TEMPLATE COMPUTED 
 $primary-hvr: color.scale($primary, $lightness: 20%);
 $secondary-hvr: color.scale($secondary, $lightness: 20%);
 $btn-primary-hvr: color.scale($btn-primary, $lightness: 20%);
+$accordionBg-hvr: color.scale($accordionBg, $lightness: 20%);

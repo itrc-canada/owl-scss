@@ -1,9 +1,11 @@
 # OWL SCSS
 **Goal:** Make it easier to update and customize the OWL templates by leveraging SCSS and separated pre-built components.
-  
+
+## Requirements
+ 
   
 ## Structure
-1. `Scripts`
+1. `scripts`
    - Contains useful scripts for gathering resources such as fonts (needs to be run before compiling)
    - Also contains compile scripts and future home of the CLI to just make things easier (web version to come)
 2. `scss`

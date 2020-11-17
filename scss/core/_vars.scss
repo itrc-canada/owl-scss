@@ -4,7 +4,11 @@
   easier.
 */
 
+// Borders
 $defaultBorderRadius: 3px;
-$columnBorderRadius: $defaultBorderRadius;
-
 $defaultBorderWidth: 3px;
+// - Column Specific
+$columnBorderRadius: $defaultBorderRadius;
+// - Ruler Specific
+$rulerBorderWidth: 2px;
+

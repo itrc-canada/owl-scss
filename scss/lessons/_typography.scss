@@ -1,7 +1,7 @@
 @use '../core/colours' as *;
 @use '../core/typography' as typo;
 
-.itemclass {
+.textbox {
   font-family: typo.$primaryFontFamily;
   font-size: 1.1em;
   font-weight: 400;
