@@ -1,9 +1,6 @@
-
-/*
-  As a general rule you'll want to use TEMPLATE / TEMPLATE COMPUTED. 
-  But for basic colours/shades like black/white/grey you can direct access CORE.
-  Avoid direct references to TEMPLATE DEFINED as they are not always guaranteed to be there.
-*/
+// As a general rule you'll want to use TEMPLATE / TEMPLATE COMPUTED. 
+// But for basic colours/shades like black/white/grey you can direct access CORE.
+// Avoid direct references to TEMPLATE DEFINED as they are not always guaranteed to be there.
 
 @use 'sass:color' as color;
 
@@ -31,12 +28,9 @@ $colgreen: #72d2a6;
 $colred: #c73248;
 $coltransparent: transparent;
 $colyellow: #ffd256;
-// Accordions
-$accordionBg: $gray;
 
 
 // TEMPLATE COMPUTED 
 $primary-hvr: color.scale($primary, $lightness: 20%);
 $secondary-hvr: color.scale($secondary, $lightness: 20%);
 $btn-primary-hvr: color.scale($btn-primary, $lightness: 20%);
-$accordionBg-hvr: color.scale($accordionBg, $lightness: 20%);

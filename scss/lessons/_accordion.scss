@@ -6,31 +6,23 @@
 
 // Accordion Content
 .collabsible {
-  margin: 0.75em 0 0.5em 0.75em;
-  border-left: $defaultBorderWidth solid $lt-gray;
-  border-radius: $defaultBorderRadius;
+  margin: 0.75em 0 0.5em 4%;
 }
 
 // Accordion Content
 .collapsibleSectionHeader {
   @include anim.transition();
   position: relative;
-  margin: 0.75em 0 0.5em 0.75em;
-  padding: 1.25em;
+  margin: 0.75em 0 0.5em 4%;
   width: 100%;
-  background: $accordionBg;
-  color: $white;
 
   &:hover {
     @include anim.transition();
-    background: $accordionBg-hvr;
   }
 
   // Bump up accordian header text size
   .sectionHeaderText {
     font-family: typo.$primaryFontFamily;
-    font-size: 1.20em;
-    color: $white;
   }
 
   // Fixes the gross aliasing, on the icon

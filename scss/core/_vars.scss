@@ -1,14 +1,11 @@
-/*
-  Generic Variables that do not fit into colours or typography.
-  You can almost think of this as 'defaults' to make standardizing
-  easier.
-*/
+// Generic Variables that do not fit into colours or typography.
+//  You can almost think of this as 'defaults' to make standardizing easier.
 
 // Borders
 $defaultBorderRadius: 3px;
 $defaultBorderWidth: 3px;
 // - Column Specific
-$columnBorderRadius: $defaultBorderRadius;
+$columnBorderRadius: 0;
 // - Ruler Specific
 $rulerBorderWidth: 1px;
 
