@@ -5,10 +5,17 @@
 .textbox {
 
   table {
+
     tr {
+      // Current lessons has `padding:0;` on all table cells which is less than ideal.
       td {
         font-family: typo.$primaryFontFamily;
         padding: 0.25em;
+      }
+
+      // Extra styles to apply to the header row, currenty combines additional rules with <td> above
+      th {
+        @extend td;
       }
     }
   }

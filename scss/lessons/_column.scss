@@ -6,6 +6,7 @@
 @use '../core/colours' as *;
 @use '../core/vars' as *;
 
+// Ported from adv-css
 .lastcol {
   background: $coltransparent;
   border: none;
@@ -14,9 +15,12 @@
 // Why are they all right? No lefts here.
 .right-col {
   width: 100%;
-  padding: 0;
+  padding: 0 0 0 1.5em;
 }
 
+// Column colouring
+
+// This is stacked as ideall I would like to rename this class if possible.
 .coltransparent, .coltrans {
   background: $coltransparent;
   border: none;

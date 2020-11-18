@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -fsS -o _fonts.css $1
+curl -fsS -o $PWD/../scss/external/_fonts.css $1

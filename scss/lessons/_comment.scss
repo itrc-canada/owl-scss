@@ -1,9 +1,10 @@
-// Let's fix the Comment tool
+// Comments!
+// It needs some love too.
 @use '../core/colours' as *;
 @use '../core/vars' as *;
-@use '../core/animation' as anim;
 @use '../core/typography' as typo;
 
+// Override fonts/colours to adhere to template
 .commentsDiv {
 
   .commentDiv {
@@ -21,6 +22,7 @@
   }
 }
 
+// Pretty up and create more spacing around user action buttons.
 .add-comment-button {
 
   .usebutton {

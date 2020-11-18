@@ -1,22 +1,24 @@
+// Colours!
+
 // As a general rule you'll want to use TEMPLATE / TEMPLATE COMPUTED. 
 // But for basic colours/shades like black/white/grey you can direct access CORE.
 // Avoid direct references to TEMPLATE DEFINED as they are not always guaranteed to be there.
 
 @use 'sass:color' as color;
 
-// TEMPLATE DEFINED (SET COLOURS HERE. UPDATE TEMPLATE VARIABLES.)
+// TEMPLATE DEFINED (Set colours here then update the TEMPLATE variable)
 // $- is a private var, if you need access to a colour outside this file omit '-'
 $-slate: #065464;
 $-darkness: #212121;
 $-meteorite: #4f2683;
 
-// STANDARD COLOURS (DO NOT REMOVE.)
+// STANDARD (Do not remove. Add/edit as needed (be aware of the impact))
 $white: #ffffff;
 $black: #000;
 $gray: #808080;
 $lt-gray: #a1a1a1;
 
-// TEMPLATE (DO NOT CHANGE VARIABLE NAMES.)
+// TEMPLATE (Do not change variable names, you will break things 😵)
 // Core Colours
 $primary: $-slate;
 $secondary: $-darkness;
@@ -30,7 +32,7 @@ $coltransparent: transparent;
 $colyellow: #ffd256;
 
 
-// TEMPLATE COMPUTED 
+// TEMPLATE COMPUTED (Calculated colours such as hovers. Do not remove. Add as needed)
 $primary-hvr: color.scale($primary, $lightness: 20%);
 $secondary-hvr: color.scale($secondary, $lightness: 20%);
 $btn-primary-hvr: color.scale($btn-primary, $lightness: 20%);
