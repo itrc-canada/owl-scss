@@ -1,4 +1,4 @@
-## `scss`
+## SCSS
 
 ### Rules
 - Templates (e.g. `advanced.scss`, `basic.scss`) live in the root folder and are compiled when running the compile script.

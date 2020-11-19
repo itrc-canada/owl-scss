@@ -3,6 +3,7 @@
 // Colour overrides for Basic Template
 @use './core/colours' with (
   $primary: #000,
+  $secondary: #000,
   $btn-primary: #4f2683, // $-meteorite
 );
 
@@ -18,6 +19,7 @@
 @use './lessons/subpage-basic';
 @use './lessons/tables';
 @use './lessons/typography';
+@use './lessons/typography-basic';
 
 
 // Lessons Overrides (Might reach outside the page)

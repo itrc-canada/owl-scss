@@ -19,7 +19,7 @@
     color: typo.$primaryFontColor;
     text-align: left;
     width: 100%;
-    // margin: 1.0em 0;
+    margin: 0 0 1.0em 0;
   }
 
   // Customize second-level headers
@@ -30,7 +30,7 @@
     color: typo.$secondaryFontColor;
     text-align: left;
     width: 100%;
-    // margin: 0 0 20px 0;
+    margin: 0 0 1.0em 0;
   }
 
   // Make the rest of the headers consistent
@@ -39,5 +39,6 @@
     font-size: 1.1em;
     font-weight: 600;
     color: typo.$primaryFontColor;
+    margin: 0 0 1.0em 0;
   }
 }
