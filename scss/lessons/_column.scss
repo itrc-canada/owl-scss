@@ -8,10 +8,16 @@
   border: none;
 }
 
+// ported from basic-css
+.contentCol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 // Why are they all right? No lefts here.
 .right-col {
   width: 100%;
-  padding: 0 0 0 1.5em;
+  margin: 1.0em 0 1.0em 1.5em;
 }
 
 // Section colouring

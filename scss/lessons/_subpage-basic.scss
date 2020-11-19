@@ -3,13 +3,10 @@
 @use '../core/animation' as anim;
 @use '../core/typography' as typo;
 
-// This could also be written as: .pageType { &.listType { } }
-// if there is ever a need to access .pageType only.
 .pageType.listType {
-
   // Subpage link parent container
   .link-div {
-    width: 100%;
+    width: 29%;
 
     // Subpage link as button
     .usebutton {
@@ -24,21 +21,17 @@
       width: 100%;
       background: $btn-primary;
       margin: 0 0 20px 0;
-
-      // Btn Hover
-      &:hover {
-        @include anim.transition();
-        background: $btn-primary-hvr;
-      }
-    }  
+      min-width: 200px;
+    
+    }
   }
 
   // Styles the description field for subpage / list items
   // Commented out values are originals replaced by fall edits.
   .rowdescription {
     font-family: typo.$primaryFontFamily;
-    margin: 0 auto 1.25em 0;
-    width: 100%;
+    margin: 0 auto 1.25em 2.0em;
+    width: 65%;
     vertical-align: top;
     color: $black;
   }
