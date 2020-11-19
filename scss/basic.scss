@@ -1,6 +1,24 @@
-// OWL Basic Template 
+// OWL Basic Template
+
+// Colour overrides for Basic Template
+@use './core/colours' with (
+  $primary: #000,
+  $btn-primary: #4f2683, // $-meteorite
+);
 
 // Components
+@use './lessons/accordion';
+@use './lessons/checklist';
+@use './lessons/column';
+@use './lessons/comment';
+@use './lessons/lists';
+@use './lessons/multimedia';
+@use './lessons/rulers';
+@use './lessons/studentContent';
+@use './lessons/subpage';
+@use './lessons/tables';
+@use './lessons/typography';
+
 
 // Lessons Overrides (Might reach outside the page)
 @use './lessons/overrides';

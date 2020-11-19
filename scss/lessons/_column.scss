@@ -1,8 +1,4 @@
-/*
-  Section breaks produce sections that can be customized by color. 
-  These have borders of the given color, but they can be customized however you'd like.
-*/
-
+// Columns!
 @use '../core/colours' as *;
 @use '../core/vars' as *;
 
@@ -18,7 +14,9 @@
   padding: 0 0 0 1.5em;
 }
 
-// Column colouring
+// Section colouring
+// Section breaks produce sections that can be customized by color. 
+// These have borders of the given color, but they can be customized however you'd like.
 
 // This is stacked as ideall I would like to rename this class if possible.
 .coltransparent, .coltrans {

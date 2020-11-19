@@ -14,3 +14,10 @@
   - Styles specifically related to lessons components (e.g. Accordions, columns, etc.)
 - `.` (aka this directory)
   - Template files to be compiled. 
+
+### Current Templates
+1. **Advanced**
+  - Inlcudes all available modules
+2. **Basic**
+  - Includes all available modules (Variant colours)
+

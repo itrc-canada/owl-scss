@@ -1,10 +1,10 @@
-// Subpage - Show As Button - Button & Text
+// Subpage Buttons!
 @use '../core/colours' as *;
 @use '../core/animation' as anim;
 @use '../core/typography' as typo;
 
 // This could also be written as: .pageType { &.listType { } }
-// if there is ever a need to access .pageType/.pageType.listType only.
+// if there is ever a need to access .pageType only.
 .pageType.listType {
 
   // Subpage link parent container
