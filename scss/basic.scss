@@ -16,10 +16,11 @@
 @use './lessons/multimedia';
 @use './lessons/rulers';
 @use './lessons/studentContent';
-@use './lessons/subpage-basic';
+@use './lessons/subpage';
+@use './specific/basic/subpage-basic';
 @use './lessons/tables';
 @use './lessons/typography';
-@use './lessons/typography-basic';
+@use './specific/basic/typography-basic';
 
 
 // Lessons Overrides (Might reach outside the page)

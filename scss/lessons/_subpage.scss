@@ -20,10 +20,9 @@
       text-align: center;
       border: 0px solid transparent;
       border-radius: 0px;
-      padding: 15px;
+      padding: 0.94em;
       width: 100%;
       background: $btn-primary;
-      margin: 0 0 20px 0;
 
       // Btn Hover
       &:hover {
@@ -38,7 +37,7 @@
   .rowdescription {
     font-family: typo.$primaryFontFamily;
     font-size: 1.12em;
-    margin: 0 auto 1.25em 0;
+    margin: 1.25em auto 1.25em 0;
     width: 100%;
     vertical-align: top;
     color: $black;

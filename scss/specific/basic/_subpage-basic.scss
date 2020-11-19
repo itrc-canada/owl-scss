@@ -1,0 +1,19 @@
+// Subpage Buttons!
+@use '../../core/colours' as *;
+@use '../../core/animation' as anim;
+@use '../../core/typography' as typo;
+
+.pageType.listType {
+  // Subpage link parent container
+  .link-div {
+    width: 29%;
+  }
+
+  // Styles the description field for subpage / list items
+  // Commented out values are originals replaced by fall edits.
+  .rowdescription {
+    font-size: 1.25em;
+    margin: 0 auto 1.25em 2.0em;
+    width: 65%;
+  }
+}
