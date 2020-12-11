@@ -1,9 +1,10 @@
-// Student Page Display
+// Student Page Tool!
 @use '../core/colours' as *;
 @use '../core/typography' as typo;
 
 .studentDiv {
 
+  // Override fonts/colours to adhere to template
   .studentContentTable {
     background: $white;
 

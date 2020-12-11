@@ -1,9 +1,11 @@
-// Multimedia objects
+// Multimedia!
+// Multimedia class centering
 .multimedia, .multimediaType {
+  padding: 0.5em 0;
   text-align: center;
 }
 
-// Embedded Videos Centering
+// Embedded Videos catch for centering 
 .textbox {
   video {
     display: block;

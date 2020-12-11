@@ -1,27 +1,32 @@
-// Subpage - Show As Button - Button & Text
+// Subpage Buttons!
 @use '../core/colours' as *;
 @use '../core/animation' as anim;
 @use '../core/typography' as typo;
 
 // This could also be written as: .pageType { &.listType { } }
-// if there is ever a need to access .pageType/.pageType.listType only.
+// if there is ever a need to access .pageType only.
 .pageType.listType {
 
   // Subpage link parent container
   .link-div {
+    width: 100%;
+
     // Subpage link as button
     .usebutton {
       @include anim.transition();
-      font-family: typo.$primaryFontFamily;
-      font-size: 1.2em;
-      color: $white;
+     
       text-align: center;
       border: 0px solid transparent;
       border-radius: 0px;
-      padding: 15px;
+      padding: 0.94em;
       width: 100%;
       background: $btn-primary;
-      margin: 0 0 20px 0;
+
+      .ui-button-text {
+        font-size: 1.2em;
+        color: $white;
+        font-weight: 400;
+      }
 
       // Btn Hover
       &:hover {
@@ -34,8 +39,10 @@
   // Styles the description field for subpage / list items
   // Commented out values are originals replaced by fall edits.
   .rowdescription {
-    margin: 0 auto 20px 2%; // auto
-    width: 70%; // 100%;
+    font-family: typo.$primaryFontFamily;
+    font-size: 1.12em;
+    margin: 1.25em auto 1.25em 0;
+    width: 100%;
     vertical-align: top;
     color: $black;
   }

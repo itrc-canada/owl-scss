@@ -1,7 +1,8 @@
-// Rulers
+// Rulers!
 @use '../core/colours' as *;
 @use '../core/vars' as *;
 
+// Override default <hr /> styling to use template colours
 hr {
   margin: 1.25em 0;
   border: 0;

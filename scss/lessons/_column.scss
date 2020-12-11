@@ -1,22 +1,30 @@
-/*
-  Section breaks produce sections that can be customized by color. 
-  These have borders of the given color, but they can be customized however you'd like.
-*/
-
+// Columns!
 @use '../core/colours' as *;
 @use '../core/vars' as *;
 
+// Ported from adv-css
 .lastcol {
   background: $coltransparent;
   border: none;
 }
 
+// ported from basic-css
+.contentCol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 // Why are they all right? No lefts here.
 .right-col {
   width: 100%;
-  padding: 0;
+  // margin: 1.0em 0 1.0em 1.5em;
 }
 
+// Section colouring
+// Section breaks produce sections that can be customized by color. 
+// These have borders of the given color, but they can be customized however you'd like.
+
+// This is stacked as ideall I would like to rename this class if possible.
 .coltransparent, .coltrans {
   background: $coltransparent;
   border: none;

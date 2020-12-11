@@ -1,4 +1,4 @@
-// Accordions
+// Accordions!
 @use '../core/colours' as *;
 @use '../core/vars' as *;
 @use '../core/animation' as anim;
@@ -7,6 +7,7 @@
 // Accordion Content
 .collabsible {
   margin: 0.75em 0 0.5em 4%;
+  // margin: 0.75em 0 0.5em 0; // Proposed change
 }
 
 // Accordion Content
@@ -14,8 +15,10 @@
   @include anim.transition();
   position: relative;
   margin: 0.75em 0 0.5em 4%;
+  // margin: 0.75em 0 0.5em 0; // Proposed change
   width: 100%;
 
+  // Makes the hover smoother and less snappy
   &:hover {
     @include anim.transition();
   }

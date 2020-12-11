@@ -1,8 +1,10 @@
-// Let's fix-up the checklists
+// Checklists!
+// Let's fix these up shall we?
 @use '../core/colours' as *;
 @use '../core/vars' as *;
 @use '../core/typography' as typo;
 
+// Changes fonts to use template font and applies minor styling for QOL.
 .checklistDiv {
   background: $white !important; // transparent; This was overwritten farther down.
   border: $defaultBorderWidth solid $gray; // Upped to 3px to match columns
@@ -10,19 +12,19 @@
   border-radius: $defaultBorderRadius;
   color: $black;
 
-
   .checklistTitle {
     font-family: typo.$primaryFontFamily;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   .checklistLabel {
     font-family: typo.$primaryFontFamily;
+    font-size: 1.2em !important;
+    font-weight: 600;
   }
 
   .checklistDescription {
     font-family: typo.$primaryFontFamily;
     width: 100%;
   }
-
 }

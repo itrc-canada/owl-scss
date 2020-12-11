@@ -1,8 +1,9 @@
-
-.itemclass {
-
-  // Gives a little margin for lists (Spacing is important 👍)
-  .textbox li{
-    margin: 0 0 20px 0;
+// Lists!
+// Gives a little margin for lists (Spacing is important 👍)
+.textbox {
+  ul, ol {
+    li {
+      margin: 0 0 1.0em 0;
+    }
   }
 }
