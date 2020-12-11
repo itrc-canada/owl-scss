@@ -14,15 +14,19 @@
     // Subpage link as button
     .usebutton {
       @include anim.transition();
-      font-family: typo.$primaryFontFamily;
-      font-size: 1.2em;
-      color: $white;
+     
       text-align: center;
       border: 0px solid transparent;
       border-radius: 0px;
       padding: 0.94em;
       width: 100%;
       background: $btn-primary;
+
+      .ui-button-text {
+        font-size: 1.2em;
+        color: $white;
+        font-weight: 400;
+      }
 
       // Btn Hover
       &:hover {
